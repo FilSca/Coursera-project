@@ -1,0 +1,21 @@
+Capstone Project - The Battle of Neighborhoods
+
+Data sources and manipulation  
+The data that will be required will be a combination of CSV files that have been prepared for the purposes of the analysis from multiple sources which will provide: 
+-	the list of neighbourhoods in Berlin (via Wikipedia), 
+-	the Geographical location of the neighbourhoods (via Geocoder package) 
+-	the Venue data pertaining to Italian restaurants (via Foursquare). The Venue data will help find which neighbourhood is best suitable to open an Italian restaurant.
+
+Source 1: Berlin neighbourhoods via Wikipedia
+https://en.wikipedia.org/wiki/Boroughs_and_neighborhoods_of_Berlin
+
+The Wikipedia site shown above provided almost all the information about the neighbourhoods. It included the postal code, borough and the name of the neighbourhoods present in Berlin. Since the data is not in a format that is suitable for analysis, scraping of the data will be use from this site.
+
+Source 2: Geographical Location data using Geocoder Package
+The Geocoder Python package will be use 
+https://geocoder.readthedocs.io/index.html
+
+Source 3: Venue Data using Foursquare
+I’ll perform a bit of data cleaning. The neighbourhoods will be grouped by the name of the neighbourhood, so data clustering will be made easier later on.
+
+
